@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&family=Work+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:display=swap');
+
+
+
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    min-height: 100vh;
+
+    background-color: cyan;
+
+}
+
+.main-container{
+
+    position: relative;
+
+    justify-content: center;
+
+    height: auto;
+
+    width: 550px;
+
+    margin: 20px;
+
+    background-color: #fff;
+
+    box-shadow:0 0 30px rgba(0, 0, 0, .4);
+
+    border-radius: 10px;
+
+
+
+}
+
+.main-container .heading{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin: 10px;
+
+    height: 70px;
+
+    background-color:blueviolet;
+
+    border-radius: 5px;
+
+}
+
+h2{
+
+    color: #fff;
+
+    text-transform: uppercase;
+
+    font-family: 'Ubuntu', sans-serif;
+
+    letter-spacing: 2px;
+
+}
+
+.formbox{
+
+    margin: 10px;
+
+    margin-top: 20px;
+
+}
+
+.formbox form{
+
+    background-color: blanchedalmond;
+
+    padding: 10px;
+
+    border-radius: 10px;
+
+}
+
+.formbox form input{
+
+    margin-bottom: 10px;
+
+}
+
+p{
+
+    margin-left: 5px;
+
+    font-family: 'Rubik', sans-serif;
+
+    letter-spacing: 0.08em;
+
+    font-size: 1rem;
+
+}
+
+.formbox .in{
+
+    margin-top: 5px;
+
+
+    font-family: 'Ubuntu', sans-serif;;
+
+    font-weight: 400;
+
+    letter-spacing: 0.1rem;
+
+    width: 100%;
+
+    padding: 3px 8px;
+
+    border: 1.5px solid blueviolet;
+
+    border-radius: 10px;
+
+}
+
+form .in:focus{
+
+    background-color: cyan;
+
+
+    font-weight: 400;
+
+    letter-spacing: 0.17rem;
+
+    transition: 0.3s;
+
+}
+
+.formbox .in::placeholder{
+
+    color: #881d61;
+
+    opacity: 0.6;
+
+    font-family: 'Ubuntu', sans-serif;;
+
+}
+
+
+
+.btn{
+
+    margin-top: 20px;
+
+    margin-left: 70px;
+
+    margin-bottom: 10px;
+
+    border:none;
+
+    background-color: blueviolet;
+
+    color: #fff;
+
+    cursor: pointer;
+
+    border-radius: 5px;
+
+    padding: 5px;
+
+    width: 150px;
+
+    font-size: 1.05em;
+
+    font-weight: 550;
+
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.4);
+
+}
+
+.btn:hover{
+
+    background-color: #FF5B00;
+
+    transform: translateY(-3px);
+
+    transition: 0.2s;    
+
+}
+
+
+
